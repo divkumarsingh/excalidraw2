@@ -6,9 +6,7 @@
   "exports":{
     ".": "./src/types.ts"
   },
-  "scripts": {
-    "dev": "bun run ./src/types.ts"
-  },
+  
   "devDependencies": {
     "@types/bun": "latest"
   },
