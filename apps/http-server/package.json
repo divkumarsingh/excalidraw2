@@ -1,0 +1,26 @@
+{
+  "name": "http-server",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "dev": "bun run ./src/index.ts"
+  },
+  
+  "private": true,
+  "dependencies": {
+    "@repo/db": "*",
+    "@repo/backend-common": "*",
+    "@repo/common": "*",
+    "@types/express": "^5.0.6",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "@types/jsonwebtoken": "^9.0.10"
+  },
+  "peerDependencies": {
+    "typescript": "^5"
+  }
+}
