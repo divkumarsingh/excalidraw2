@@ -5,12 +5,11 @@
   "scripts": {
     "dev": "bun run ./src/index.ts"
   },
-  
   "private": true,
   "dependencies": {
-    "@repo/db": "*",
     "@repo/backend-common": "*",
     "@repo/common": "*",
+    "@repo/db": "*",
     "@types/express": "^5.0.6",
     "express": "^5.2.1",
     "jsonwebtoken": "^9.0.3",
