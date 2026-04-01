@@ -1,4 +1,5 @@
 import express from "express";
+import cors from "cors";
 import {CreateRoomSchema, CreateUserSchema, SigninSchema} from "@repo/common"
 import { UserMiddleware } from "./middleware";
 import jwt from "jsonwebtoken";
@@ -8,6 +9,7 @@ import { BACKEND_PORT, JWT_SECRET } from "@repo/backend-common";
 
 const app = express();
 app.use(express.json());
+app.use(cors())
 
 app.post("/api/v1/signup", async(req, res) => {
 

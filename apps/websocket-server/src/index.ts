@@ -88,7 +88,7 @@ wss.on("connection", function connection(ws, request) {
                     }))
                 }
             });
-
+            //better to sent to queue and then their do db call
             await prisma.chat.create({
                 data:{
                     roomId,

@@ -4,6 +4,6 @@
     "outDir": "dist",
     "strictNullChecks": true
   },
-  "include": ["src"],
+  "include": ["src", "../../apps/web-frontend/app/component/Authpage.tsx", "../../apps/web-frontend/app/component/InputBox.tsx", "../../apps/web-frontend/app/component/GradientButton.tsx"],
   "exclude": ["node_modules", "dist"]
 }
